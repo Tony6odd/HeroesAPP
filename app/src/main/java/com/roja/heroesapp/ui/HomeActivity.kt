@@ -10,6 +10,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.roja.heroesapp.MainActivity
 import com.roja.heroesapp.R
@@ -76,13 +77,14 @@ class HomeActivity : AppCompatActivity() {
                 .setView(dialogView)
                 .create()
 
-
-
             dialog.show()
         }
 
-        publishersRecyclerView.layoutManager = GridLayoutManager(this, 2)
         publishersRecyclerView2.layoutManager = GridLayoutManager(this, 2)
+
+
+        publishersRecyclerView.layoutManager = GridLayoutManager(this, 2)
+        publishersRecyclerView2.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
         logoutBTN.setOnClickListener {
             val editor = sharedPreferences.edit()
