@@ -25,6 +25,8 @@ data class Publisher(val id : Int, val name : String, val description : String, 
             Publisher(13, "Cyborg", "Héroe con tecnología avanzada integrada en su cuerpo, proporcionando habilidades cibernéticas y poderosas armas. Lucha por la justicia y la integración.", "https://static.wikia.nocookie.net/marvel_dc/images/c/c3/Cyborg_0001.jpg/revision/latest?cb=20130704172041"),
             Publisher(14, "Deadpool", "Mercenario con un factor de curación extremadamente rápido y habilidades de combate excepcionales. Conocido por su humor irreverente.", "https://m.media-amazon.com/images/I/81bXuzhIVqS.jpg"),
 
+            Publisher(15, "Shazam", "Adolescente que se transforma en un poderoso héroe con habilidades mágicas al decir \"Shazam\". Combina la fuerza de varios dioses y héroes mitológicos.", "https://static.wikia.nocookie.net/marvel_dc/images/6/61/Shazam%21_Vol_3_1_Textless_Variant.jpg/revision/latest?cb=20181205234924"),
+            Publisher(16, "Black Panter", "Rey de Wakanda con fuerza mejorada y habilidades de combate avanzadas. Defiende su nación y el mundo con su tecnología y agilidad.", "https://i.pinimg.com/736x/2b/22/0a/2b220ad838ecdc3056d2847726fae843.jpg")
 
 
 
