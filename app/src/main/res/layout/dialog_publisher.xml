@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/hero_description"
         android:fontFamily="@font/bangers"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
         android:textColor="@color/white" />

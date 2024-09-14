@@ -20,6 +20,12 @@ data class Publisher(val id : Int, val name : String, val description : String, 
             Publisher(10, "Hulk", "Bruce Banner, al transformarse en Hulk, obtiene fuerza y resistencia sobrehumanas. Su furia le da un poder casi imparable, convirtiéndolo en uno de los héroes más fuertes del universo.", "https://static.wikia.nocookie.net/mavericuniverse/images/3/3e/Incredible-hulk-20060221015639117.jpg/revision/latest?cb=20130712033651"),
 
             Publisher(11, "Aquaman", "Rey de Atlantis con control sobre el agua y habilidades acuáticas. Defiende los océanos y la tierra de amenazas submarinas.", "https://i.etsystatic.com/16559376/r/il/5e9fbc/3972613256/il_794xN.3972613256_4fld.jpg"),
+            Publisher(12, "Black Widow", " Espía y experta en artes marciales con habilidades de infiltración. Lucha contra el crimen con agilidad y astucia.", "https://www.zonanegativa.com/imagenes/2020/01/black-widow-widows-sting-muestra-portada-1.jpg"),
+
+            Publisher(13, "Cyborg", "Héroe con tecnología avanzada integrada en su cuerpo, proporcionando habilidades cibernéticas y poderosas armas. Lucha por la justicia y la integración.", "https://static.wikia.nocookie.net/marvel_dc/images/c/c3/Cyborg_0001.jpg/revision/latest?cb=20130704172041"),
+            Publisher(14, "Deadpool", "Mercenario con un factor de curación extremadamente rápido y habilidades de combate excepcionales. Conocido por su humor irreverente.", "https://m.media-amazon.com/images/I/81bXuzhIVqS.jpg"),
+
+
 
 
 
