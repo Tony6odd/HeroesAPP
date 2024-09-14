@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grisProfundo">#1C1C1E</color>
+    <color name="amarilloCalido">#eeedd7</color>
+    <color name="azulCalido">#3f9790</color>
+    <color name="azulCalido50">#803f9790</color>
+    <color name="azulCalido80">#CC3f9790</color>
+    <color name="azulCalido90">#E63f9790</color>
+    <color name="semiBlack">#80000000</color>
+</resources>
