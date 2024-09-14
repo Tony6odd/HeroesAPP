@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso
 
 
 class PublisherAdapter(
-    private val publishers: List<Publisher>,
+    private val publishers: MutableList<Publisher>,
     private val onItemClicked: (Publisher) -> Unit
 ) : RecyclerView.Adapter<PublisherViewHolder>() {
 

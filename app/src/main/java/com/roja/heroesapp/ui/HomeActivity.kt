@@ -3,7 +3,6 @@ package com.roja.heroesapp.ui
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -14,9 +13,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.roja.heroesapp.MainActivity
 import com.roja.heroesapp.R
+import com.roja.heroesapp.adapters.Publisher2Adapter
 import com.roja.heroesapp.adapters.PublisherAdapter
 import com.roja.heroesapp.models.Publisher
+import com.roja.heroesapp.models.Publisher2
 import com.squareup.picasso.Picasso
+
 
 class HomeActivity : AppCompatActivity() {
     lateinit var username: TextView
@@ -61,17 +63,17 @@ class HomeActivity : AppCompatActivity() {
             dialog.show()
         }
 
-        publishersRecyclerView2.adapter = PublisherAdapter(Publisher.publishers) { publisher ->
+
+        publishersRecyclerView2.adapter = Publisher2Adapter(Publisher2.publishers2) { publisher2 ->
 
             val dialogView = layoutInflater.inflate(R.layout.dialog_publisher, null)
-
             val imageView = dialogView.findViewById<ImageView>(R.id.publisher_image_dialog)
             val nameView = dialogView.findViewById<TextView>(R.id.publisher_name_dialog)
             val descriptionView = dialogView.findViewById<TextView>(R.id.publisher_description_dialog)
 
-            nameView.text = publisher.name
-            descriptionView.text = publisher.description
-            Picasso.get().load(publisher.image).into(imageView)
+            nameView.text = publisher2.name
+            descriptionView.text = publisher2.description
+            Picasso.get().load(publisher2.image).into(imageView)
 
             val dialog = AlertDialog.Builder(this)
                 .setView(dialogView)
@@ -79,6 +81,7 @@ class HomeActivity : AppCompatActivity() {
 
             dialog.show()
         }
+
 
         publishersRecyclerView2.layoutManager = GridLayoutManager(this, 2)
 
